@@ -39,12 +39,12 @@ const ScrollToTop = () => {
   return (
     <>
       {/* Scroll Progress Bar */}
-      <div className="fixed top-0 left-0 w-full h-1 bg-gray-200 z-50">
+      {/* <div className="fixed top-0 left-0 d- h-1 bg-gray-200 z-50">
         <div 
           className="h-full bg-gradient-to-r from-blue-500 to-purple-500 transition-all duration-300 ease-out"
           style={{ width: `${scrollProgress}%` }}
         />
-      </div>
+      </div> */}
 
       {/* Scroll to Top Button */}
       <div className="fixed bottom-8 right-8 z-50">
