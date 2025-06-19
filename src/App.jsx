@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Layout from './components/layout/layout';
+import Layout from './components/layout/Layout';
 import Home from './pages/Home';
 import CategoryPage from './pages/CategoryPage';
 import ScrollToTopOnRouteChange from './components/common/ScrollToTopOnRouteChange';
