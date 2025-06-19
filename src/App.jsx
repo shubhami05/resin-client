@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import CategoryPage from './pages/CategoryPage';
 import ScrollToTopOnRouteChange from './components/common/ScrollToTopOnRouteChange';
 
+
 function App() {
   return (
     <Router>
